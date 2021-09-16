@@ -5,10 +5,10 @@ using TechTalk.SpecFlow;
 namespace SpecFlowProject2.Steps
 {
     [Binding]
-    public class MultiplicationSteps
+    public class MultiplicationStepsDefinitions
     {
         private readonly ScenarioContext _scenarioContext;
-        public MultiplicationSteps(ScenarioContext scenarioContext)
+        public MultiplicationStepsDefinitions(ScenarioContext scenarioContext)
         {
             _scenarioContext = scenarioContext;
         }
