@@ -1,0 +1,24 @@
+SF:C:\Users\30080717\source\repos\personal\LearningSandbox\ClassLibrary1\Calculator.cs
+FN:6,System.Int32 ClassLibrary1.Calculator::get_FirstNumber()
+FNDA:8,System.Int32 ClassLibrary1.Calculator::get_FirstNumber()
+DA:7,8
+FN:7,System.Int32 ClassLibrary1.Calculator::get_SecondNumber()
+FNDA:8,System.Int32 ClassLibrary1.Calculator::get_SecondNumber()
+DA:8,8
+FN:10,System.Int32 ClassLibrary1.Calculator::Add()
+FNDA:1,System.Int32 ClassLibrary1.Calculator::Add()
+DA:11,1
+DA:12,1
+DA:13,1
+FN:15,System.Object ClassLibrary1.Calculator::Multiply()
+FNDA:3,System.Object ClassLibrary1.Calculator::Multiply()
+DA:16,3
+DA:17,3
+DA:18,3
+LF:8
+LH:8
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record

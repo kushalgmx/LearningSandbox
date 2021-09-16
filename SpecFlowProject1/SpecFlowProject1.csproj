@@ -5,22 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="coveralls.io" Version="1.4.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
     <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
-
-    
     <PackageReference Include="SpecRun.SpecFlow" Version="3.9.7" />
-    
-
-    
-
-    
-
-    
-
-    
     <PackageReference Include="FluentAssertions" Version="6.1.0" />
-    
+    <PackageReference Include="coverlet.msbuild" Version="2.9.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    <PrivateAssets>all</PrivateAssets>
+  </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
