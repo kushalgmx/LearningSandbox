@@ -12,7 +12,7 @@ namespace ClassLibrary1
             return FirstNumber + SecondNumber;
         }
 
-        public object Multiply()
+        public int Multiply()
         {
             return FirstNumber * SecondNumber;
         }
