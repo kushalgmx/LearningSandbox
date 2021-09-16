@@ -23,7 +23,7 @@ jobs:
     - name: Test
       run: |
         cd SpecFlowProject2
-        dotnet test --no-build --verbosity normal
+        dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./lcov.info
     - name: Coveralls Parallel
       uses: coverallsapp/github-action@master
       with:
