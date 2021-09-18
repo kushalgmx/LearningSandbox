@@ -34,12 +34,12 @@ namespace ClassLibrary1
 
         public static decimal FeetToYards(decimal inputInFeet)
         {
-            return inputInFeet * FEET_IN_A_YARD;
+            return inputInFeet / FEET_IN_A_YARD;
         }
 
         public static decimal YardsToFeet(decimal inputInYards)
         {
-            return inputInYards / FEET_IN_A_YARD;
+            return inputInYards * FEET_IN_A_YARD;
         }
     }
 }
