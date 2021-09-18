@@ -33,18 +33,6 @@ namespace SpecFlowProject2.Steps
             _output = LengthConverter.InchesToFeet(_input);
         }
 
-        [When(@"the length in meters is converted to feet")]
-        public void WhenTheLengthInMetersIsConvertedToFeet()
-        {
-            _output = LengthConverter.MetersToFeet(_input);
-        }
-
-        [When(@"the length in feet is converted to meters")]
-        public void WhenTheLengthInFeetIsConvertedToMeters()
-        {
-            _output = LengthConverter.FeetToMeters(_input);
-        }
-
         [When(@"the length in feet is converted to yards")]
         public void WhenTheLengthInFeetIsConvertedToYards()
         {
