@@ -9,7 +9,6 @@ namespace ClassLibrary1
     public static class LengthConverter
     {
         const int INCHES_IN_A_FOOT = 12;
-        const decimal METERS_IN_A_FOOT = 0.3048M;
         const int FEET_IN_A_YARD = 3;
 
         public static decimal FeetToInches(decimal inputInFeet)
