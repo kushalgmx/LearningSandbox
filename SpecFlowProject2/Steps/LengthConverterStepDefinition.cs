@@ -1,4 +1,5 @@
 ﻿using ClassLibrary1;
+using FluentAssertions;
 using TechTalk.SpecFlow;
 
 namespace SpecFlowProject2.Steps
@@ -7,29 +8,60 @@ namespace SpecFlowProject2.Steps
     public sealed class LengthConverterStepDefinition
     {
         private readonly ScenarioContext _scenarioContext;
+        private decimal _input, _output;
 
         public LengthConverterStepDefinition(ScenarioContext scenarioContext)
         {
             _scenarioContext = scenarioContext;
         }
 
-        [Given(@"the length in feet is (.*)")]
+        [Given(@"the length is (.*)")]
         public void GivenTheLengthInFeetIs(decimal input)
         {
-            _scenarioContext["input"] = input;
+            _input = input;
         }
 
         [When(@"the length in feet is converted to inches")]
         public void WhenTheLengthInFeetIsConvertedToInches()
         {
-            _scenarioContext["Result"] = LengthConverter.FeetToInches((decimal)_scenarioContext["input"]);
+            _output = LengthConverter.FeetToInches(_input);
         }
 
-        [Then(@"the length in inches should be (.*)")]
+        [When(@"the length in inches is converted to feet")]
+        public void WhenTheLengthInInchesIsConvertedToFeet()
+        {
+            _output = LengthConverter.InchesToFeet(_input);
+        }
+
+        [When(@"the length in meters is converted to feet")]
+        public void WhenTheLengthInMetersIsConvertedToFeet()
+        {
+            _output = LengthConverter.MetersToFeet(_input);
+        }
+
+        [When(@"the length in feet is converted to meters")]
+        public void WhenTheLengthInFeetIsConvertedToMeters()
+        {
+            _output = LengthConverter.FeetToMeters(_input);
+        }
+
+        [When(@"the length in feet is converted to yards")]
+        public void WhenTheLengthInFeetIsConvertedToYards()
+        {
+            _output = LengthConverter.FeetToYards(_input);
+        }
+
+        [When(@"the length in yards is converted to feet")]
+        public void WhenTheLengthInYardsIsConvertedToFeet()
+        {
+            _output = LengthConverter.YardsToFeet(_input);
+        }
+
+        [Then(@"the length should be (.*)")]
         public void ThenTheLengthInInchesShouldBe(int result)
         {
-            var actual = (decimal)_scenarioContext["Result"];
-            actual.Equals(result);
+            var actual = _output;
+            actual.Should().Be(result);
         }
     }
 }
