@@ -22,16 +22,6 @@ namespace ClassLibrary1
             return inputInInches / INCHES_IN_A_FOOT;
         }
 
-        public static decimal FeetToMeters(decimal inputInFeet)
-        {
-            return inputInFeet * METERS_IN_A_FOOT;
-        }
-
-        public static decimal MetersToFeet(decimal inputInMeters)
-        {
-            return inputInMeters / METERS_IN_A_FOOT;
-        }
-
         public static decimal FeetToYards(decimal inputInFeet)
         {
             return inputInFeet / FEET_IN_A_YARD;
