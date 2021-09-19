@@ -14,6 +14,18 @@ Scenario: Convert inches to feet
 	When the length in inches is converted to feet
 	Then the length should be 30
 
+@convertMetersToFeet
+Scenario: Convert meters to feet
+	Given the length is 100000
+	When the length in meters is converted to feet
+	Then the length should approximately be between 328083 and 328085
+
+@convertFeetToMeters
+Scenario: Convert feet to meters
+	Given the length is 328084
+	When the length in feet is converted to meters
+	Then the length should approximately be between 99999 and 100001
+
 @convertFeetToYards
 Scenario: Convert feet to yards
 	Given the length is 12

@@ -33,6 +33,18 @@ namespace SpecFlowProject2.Steps
             _output = LengthConverter.InchesToFeet(_input);
         }
 
+        [When(@"the length in meters is converted to feet")]
+        public void WhenTheLengthInMetersIsConvertedToFeet()
+        {
+            _output = LengthConverter.MetersToFeet(_input);
+        }
+
+        [When(@"the length in feet is converted to meters")]
+        public void WhenTheLengthInFeetIsConvertedToMeters()
+        {
+            _output = LengthConverter.FeetToMeters(_input);
+        }
+
         [When(@"the length in feet is converted to yards")]
         public void WhenTheLengthInFeetIsConvertedToYards()
         {
@@ -51,5 +63,14 @@ namespace SpecFlowProject2.Steps
             var actual = _output;
             actual.Should().Be(result);
         }
+
+        [Then(@"the length should approximately be between (.*) and (.*)")]
+        public void ThenTheLengthShouldApproximatelyBeBetweenAnd(int lowend, int highend)
+        {
+            var actual = _output;
+            actual.Should().BeGreaterThan(lowend);
+            actual.Should().BeLessThan(highend);
+        }
+
     }
 }
