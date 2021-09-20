@@ -1,4 +1,5 @@
 ﻿using ClassLibrary1;
+using FluentAssertions;
 using TechTalk.SpecFlow;
 
 namespace SpecFlowProject2.Steps
@@ -39,7 +40,7 @@ namespace SpecFlowProject2.Steps
         public void ThenTheSubtractionResultShouldBe(int result)
         {
             var actual = (int)_scenarioContext["Result"];
-            actual.Equals(result);
+            actual.Equals(result).Should().BeTrue();
         }
     }
 }

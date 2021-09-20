@@ -1,4 +1,5 @@
 ﻿using ClassLibrary1;
+using FluentAssertions;
 using System;
 using TechTalk.SpecFlow;
 
@@ -24,7 +25,7 @@ namespace SpecFlowProject2.Steps
         public void ThenTheProductEndWith(int result)
         {
             var actual = (_scenarioContext["Result"]).ToString();
-            actual.EndsWith(result.ToString());
+            actual.EndsWith(result.ToString()).Should().BeTrue();
         }
     }
 }
