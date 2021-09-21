@@ -1,5 +1,5 @@
 
-Tuesday, September 21, 2021 10:33:43 AM
+Tuesday, September 21, 2021 10:33:48 AM
 
   Determining projects to restore...
   All projects are up-to-date for restore.
@@ -23,25 +23,14 @@ A total of 1 test files matched the specified pattern.
 -> Using default config
 -> LivingDocPlugin: Output generated in: C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\bin\Debug\net5.0\TestExecution.json
 
-Passed!  - Failed:     0, Passed:    11, Skipped:     0, Total:    11, Duration: 56 ms - SpecFlowProject2.dll (net5.0)
+Passed!  - Failed:     0, Passed:    11, Skipped:     0, Total:    11, Duration: 58 ms - SpecFlowProject2.dll (net5.0)
 
 Calculating coverage result...
-  Generating report '..\coverage\lcov.info'
+C:\Users\30080717\.nuget\packages\coverlet.msbuild\2.9.0\build\coverlet.msbuild.targets(60,5): error : Unable to read beyond the end of the stream. [C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\SpecFlowProject2.csproj]
+C:\Users\30080717\.nuget\packages\coverlet.msbuild\2.9.0\build\coverlet.msbuild.targets(60,5): error :    at System.IO.BinaryReader.InternalRead(Int32 numBytes) [C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\SpecFlowProject2.csproj]
+C:\Users\30080717\.nuget\packages\coverlet.msbuild\2.9.0\build\coverlet.msbuild.targets(60,5): error :    at Coverlet.Core.Coverage.CalculateCoverage() in /_/src/coverlet.core/Coverage.cs:line 359 [C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\SpecFlowProject2.csproj]
+C:\Users\30080717\.nuget\packages\coverlet.msbuild\2.9.0\build\coverlet.msbuild.targets(60,5): error :    at Coverlet.Core.Coverage.GetCoverageResult() in /_/src/coverlet.core/Coverage.cs:line 139 [C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\SpecFlowProject2.csproj]
+C:\Users\30080717\.nuget\packages\coverlet.msbuild\2.9.0\build\coverlet.msbuild.targets(60,5): error :    at Coverlet.MSbuild.Tasks.CoverageResultTask.Execute() in /_/src/coverlet.msbuild.tasks/CoverageResultTask.cs:line 112 [C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\SpecFlowProject2.csproj]
 
-+---------------+--------+--------+--------+
-| Module        | Line   | Branch | Method |
-+---------------+--------+--------+--------+
-| ClassLibrary1 | 96.66% | 100%   | 91.66% |
-+---------------+--------+--------+--------+
-
-+---------+--------+--------+--------+
-|         | Line   | Branch | Method |
-+---------+--------+--------+--------+
-| Total   | 96.66% | 100%   | 91.66% |
-+---------+--------+--------+--------+
-| Average | 96.66% | 100%   | 91.66% |
-+---------+--------+--------+--------+
-
-
-Tuesday, September 21, 2021 10:33:48 AM
+Tuesday, September 21, 2021 10:33:56 AM
 
