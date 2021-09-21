@@ -7,13 +7,7 @@ namespace SpecFlowProject2.Steps
     [Binding]
     public sealed class LengthConverterStepDefinition
     {
-        private readonly ScenarioContext _scenarioContext;
         private decimal _input, _output;
-
-        public LengthConverterStepDefinition(ScenarioContext scenarioContext)
-        {
-            _scenarioContext = scenarioContext;
-        }
 
         [Given(@"the length is (.*)")]
         public void GivenTheLengthInFeetIs(decimal input)
