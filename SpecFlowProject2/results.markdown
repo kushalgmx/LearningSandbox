@@ -1,5 +1,5 @@
 
-Tuesday, September 21, 2021 9:53:01 AM
+Tuesday, September 21, 2021 9:53:07 AM
 
   Determining projects to restore...
   All projects are up-to-date for restore.
@@ -23,7 +23,7 @@ A total of 1 test files matched the specified pattern.
 -> Using default config
 -> LivingDocPlugin: Output generated in: C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\bin\Debug\net5.0\TestExecution.json
 
-Passed!  - Failed:     0, Passed:    11, Skipped:     0, Total:    11, Duration: 69 ms - SpecFlowProject2.dll (net5.0)
+Passed!  - Failed:     0, Passed:    11, Skipped:     0, Total:    11, Duration: 62 ms - SpecFlowProject2.dll (net5.0)
 
 Calculating coverage result...
   Generating report '..\coverage\lcov.info'
@@ -43,5 +43,5 @@ Calculating coverage result...
 +---------+--------+--------+--------+
 
 
-Tuesday, September 21, 2021 9:53:07 AM
+Tuesday, September 21, 2021 9:53:14 AM
 
