@@ -1,5 +1,5 @@
 
-Saturday, January 8, 2022 6:29:29 AM
+Saturday, January 8, 2022 6:29:45 AM
 
   Determining projects to restore...
   All projects are up-to-date for restore.
@@ -11,7 +11,6 @@ Saturday, January 8, 2022 6:29:29 AM
   SpecFlowGeneratedFiles: Features\Subtraction.feature.cs
   ClassLibrary1 -> C:\Users\30080717\source\repos\personal\LearningSandbox\ClassLibrary1\bin\Debug\net6.0\ClassLibrary1.dll
   SpecFlowProject2 -> C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\bin\Debug\net6.0\SpecFlowProject2.dll
-C:\Users\30080717\.nuget\packages\coverlet.msbuild\3.1.0\build\coverlet.msbuild.targets(39,5): warning : [coverlet] Unable to instrument module: C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\bin\Debug\net6.0\ClassLibrary1.dll because : The process cannot access the file 'C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\bin\Debug\net6.0\ClassLibrary1.dll' because it is being used by another process. [C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\SpecFlowProject2.csproj]
 Test run for C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\bin\Debug\net6.0\SpecFlowProject2.dll (.NETCoreApp,Version=v6.0)
 Microsoft (R) Test Execution Command Line Tool Version 17.0.0
 Copyright (c) Microsoft Corporation.  All rights reserved.
@@ -24,20 +23,22 @@ A total of 1 test files matched the specified pattern.
 -> Using default config
 -> LivingDocPlugin: Output generated in: C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\bin\Debug\net6.0\TestExecution.json
 
-Passed!  - Failed:     0, Passed:    11, Skipped:     0, Total:    11, Duration: 38 ms - SpecFlowProject2.dll (net6.0)
+Passed!  - Failed:     0, Passed:    11, Skipped:     0, Total:    11, Duration: 30 ms - SpecFlowProject2.dll (net6.0)
 
 Calculating coverage result...
   Generating report '..\coverage\lcov.info'
 
-+--------+------+--------+--------+
-| Module | Line | Branch | Method |
-+--------+------+--------+--------+
++---------------+--------+--------+--------+
+| Module        | Line   | Branch | Method |
++---------------+--------+--------+--------+
+| ClassLibrary1 | 96.66% | 100%   | 91.66% |
++---------------+--------+--------+--------+
 
-+---------+------+--------+--------+
-|         | Line | Branch | Method |
-+---------+------+--------+--------+
-| Total   | 0%   | 0%     | 0%     |
-+---------+------+--------+--------+
-| Average | 0%   | 0%     | 0%     |
-+---------+------+--------+--------+
++---------+--------+--------+--------+
+|         | Line   | Branch | Method |
++---------+--------+--------+--------+
+| Total   | 96.66% | 100%   | 91.66% |
++---------+--------+--------+--------+
+| Average | 96.66% | 100%   | 91.66% |
++---------+--------+--------+--------+
 
