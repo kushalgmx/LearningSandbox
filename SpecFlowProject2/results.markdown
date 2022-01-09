@@ -1,5 +1,5 @@
 
-Sunday, January 9, 2022 11:29:15 AM
+Sunday, January 9, 2022 11:29:39 AM
 
   Determining projects to restore...
   All projects are up-to-date for restore.
@@ -23,22 +23,11 @@ A total of 1 test files matched the specified pattern.
 -> Using default config
 -> LivingDocPlugin: Output generated in: C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\bin\Debug\net6.0\TestExecution.json
 
-Passed!  - Failed:     0, Passed:    11, Skipped:     0, Total:    11, Duration: 29 ms - SpecFlowProject2.dll (net6.0)
+Passed!  - Failed:     0, Passed:    11, Skipped:     0, Total:    11, Duration: 79 ms - SpecFlowProject2.dll (net6.0)
 
 Calculating coverage result...
-  Generating report '..\coverage\lcov.info'
-
-+---------------+--------+--------+--------+
-| Module        | Line   | Branch | Method |
-+---------------+--------+--------+--------+
-| ClassLibrary1 | 96.66% | 100%   | 91.66% |
-+---------------+--------+--------+--------+
-
-+---------+--------+--------+--------+
-|         | Line   | Branch | Method |
-+---------+--------+--------+--------+
-| Total   | 96.66% | 100%   | 91.66% |
-+---------+--------+--------+--------+
-| Average | 96.66% | 100%   | 91.66% |
-+---------+--------+--------+--------+
-
+C:\Users\30080717\.nuget\packages\coverlet.msbuild\3.1.0\build\coverlet.msbuild.targets(71,5): error : Unable to read beyond the end of the stream. [C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\SpecFlowProject2.csproj]
+C:\Users\30080717\.nuget\packages\coverlet.msbuild\3.1.0\build\coverlet.msbuild.targets(71,5): error :    at System.IO.BinaryReader.InternalRead(Int32 numBytes) [C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\SpecFlowProject2.csproj]
+C:\Users\30080717\.nuget\packages\coverlet.msbuild\3.1.0\build\coverlet.msbuild.targets(71,5): error :    at Coverlet.Core.Coverage.CalculateCoverage() in /_/src/coverlet.core/Coverage.cs:line 414 [C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\SpecFlowProject2.csproj]
+C:\Users\30080717\.nuget\packages\coverlet.msbuild\3.1.0\build\coverlet.msbuild.targets(71,5): error :    at Coverlet.Core.Coverage.GetCoverageResult() in /_/src/coverlet.core/Coverage.cs:line 161 [C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\SpecFlowProject2.csproj]
+C:\Users\30080717\.nuget\packages\coverlet.msbuild\3.1.0\build\coverlet.msbuild.targets(71,5): error :    at Coverlet.MSbuild.Tasks.CoverageResultTask.Execute() in /_/src/coverlet.msbuild.tasks/CoverageResultTask.cs:line 82 [C:\Users\30080717\source\repos\personal\LearningSandbox\SpecFlowProject2\SpecFlowProject2.csproj]
